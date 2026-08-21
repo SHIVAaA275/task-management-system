@@ -1,16 +1,31 @@
-# React + Vite
+Task Management System (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack web application designed to help users organize, track, and manage daily tasks efficiently with real-time statistics and filter capabilities.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+Authentication System: Secure JWT-based registration and login with input validation (min 6-character passwords).
+Task Management (CRUD): Create, view, update status, and delete tasks dynamically.
+Smart Filtering & Search: Filter tasks by status (*Pending*, *Done*), priority level (*Low*, *Medium*, *High*), or search by title in real-time.
+Live Dashboard Analytics: Automatically calculates and displays total tasks, completed count, pending count, and overall completion percentage.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the Oxlint configuration
+Frontend:React.js, Vite, JavaScript (ES6+), CSS3
+Backend: Node.js, Express.js
+Database: MongoDB Atlas (Mongoose ORM)
+Authentication:JSON Web Tokens (JWT), Bcrypt.js
+HTTP Client: Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+Installation & Setup
+
+# Prerequisites
+Node.js installed on your machine
+MongoDB Atlas database connection string
+
+1. Clone the Repository
+```bash
+git clone [https://github.com/SHIVAaA275/task-management-system.git](https://github.com/SHIVAaA275/task-management-system.git)
+cd task-management-system
